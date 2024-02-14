@@ -1,0 +1,179 @@
+.wrapBox{
+  background-color: #F3D4D4;
+  border-radius: 8px;
+   margin-left: 40px;
+   width: 95%;
+   height: 60px;
+ }
+   
+   
+   .boxContent {
+    width: 50px;
+    height: 50px;
+  }
+  
+   .boxContent .box {
+    height: 50px;
+    border-radius: 8px;
+    position: relative;
+    overflow: hidden;
+  }
+  
+   .boxContent .box .imgThumb{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  
+   .boxContent .box .content {
+    display: flex;
+    position: absolute;
+    top: -200%;
+    left: 0;
+    background-color: rgba(255, 255, 255, .7);
+    height:60px;
+    width: 60px;
+    padding: 2rem ;
+    justify-content: center;
+    align-items: center;
+  }
+  
+.sideContent{
+    margin-left: 15px;  
+    width: 300px;
+  }
+
+  .sideContentTwo{
+    margin-top: 15px;
+    margin-left: 15px;  
+    width: 300px;
+  }
+  
+  .textOver{
+    margin: 5px;
+    width: 200px;
+    height: 20px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+  }
+  .wrapBox:hover .boxContent .box .content {
+    top:-5px;
+    left: -6px;
+    transition: .05s linear;
+  }
+  
+  .wrapBox:hover .boxContent .box.imgThumb {
+    width: 110%;
+    height: 110%;
+    transition: .5s linear;
+  }
+  
+  .wrapBox:hover  .sideMore{
+    visibility: visible;
+  }
+  
+  .ln{
+    padding: 0 20px 0 20px;
+}
+
+
+
+.title{
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.lnk{
+  color: #5e5d5d;
+}
+
+.descreption{
+    margin-left: 130px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #6666;
+}
+
+
+.wrap{
+    width: 670px;
+    height:55px;
+    border-radius: 15px;
+    overflow: hidden;
+    margin: 5px 10px;
+    display: flex;
+}
+
+
+.contentBody{
+    display: flex;
+    margin: 10px 15px;
+    height: 100px;
+}
+
+
+
+.contentBody:hover .icon{
+    visibility: visible;
+   }
+   
+
+.num{
+    width: 75px;
+    font-style: oblique;
+    font-weight: bold;
+    font-size: 15px;
+    margin: 20px 0;
+    color: #5e5d5d;
+}
+
+
+.numTwo{
+  width: 200px;
+  font-style: oblique;
+  font-weight: bold;
+  font-size: 15px;
+  margin: 25px 0;
+  color: #5e5d5d;
+}
+.space{
+    font-style: oblique;
+    font-size: 50px;
+
+}
+.icon{
+    margin: 20px 10px ;
+    font-size: 20px;
+    visibility: hidden;
+}
+
+.end{
+    position: relative;
+    display: flex;
+    right: 0;
+    margin: 00px 0;
+}
+
+.more{
+    position: absolute;
+    visibility: hidden;
+    margin:  25px 8px;
+}
+
+.time{
+  color: red;
+  margin:  25px 0;
+}
+
+.contentBody:hover  .end .time{
+    visibility: hidden;
+}
+
+.contentBody:hover .end .more{
+    visibility: visible;
+}
+
+

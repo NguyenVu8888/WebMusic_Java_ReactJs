@@ -1,0 +1,44 @@
+
+
+
+
+.header{
+    background-color: black;
+}
+
+.imge_logo{
+    width:60px;
+    height: 60px;
+    border-radius: 50%;
+}
+.account_infor{
+    background-color: transparent !important;
+}
+.avata_account{
+    width:40px;
+    height: 40px;
+    border-radius: 50%;
+}
+.nav_left_link{
+    color: black;
+    font-size:16px;
+    font-weight: bold;
+}
+.nav_left_link:hover{
+    color: rgb(19, 150, 162);
+}
+.table_set{
+    height: 600px;
+}
+
+.item_crud{
+    margin:0 10px;
+    border-radius: 10px;
+    background-color: #ed9e79 !important;
+    border: 1px solid #666;
+}
+.boc{
+    overflow: hidden;
+    height: 628px;
+    margin-bottom: 50px;
+}

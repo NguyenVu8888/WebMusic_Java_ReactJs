@@ -1,0 +1,145 @@
+
+   
+   .boxContent {
+    display: flex;
+    width: 120px;
+    height: 120px;
+    margin: 10px;
+  }
+  
+   .boxContent .box {
+    height: 120px;
+    flex: 1 1 30rem;
+    border-radius: .5rem;
+    position: relative;
+    overflow: hidden;
+  }
+  
+   .boxContent .box .imgThumb{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .disThumb .sideContent{
+    margin-left: 10px;
+    line-height: 18px;
+  }
+  
+  .wrapBox:hover .disThumb .boxContent .box .content {
+    top:-5px;
+    left: -6px;
+    transition: .05s linear;
+  }
+  
+  .wrapBox:hover .disThumb .boxContent .box.imgThumb {
+    width: 110%;
+    height: 110%;
+    transition: .5s linear;
+  }
+  
+  .wrapBox:hover .disThumb .sideMore{
+    visibility: visible;
+  }
+  
+  .ln{
+    padding: 0 20px 0 20px;
+}
+
+.dot{
+    font-size: 50px;
+}
+
+.botDot{
+    margin-left: 200px;
+    visibility: hidden;
+}
+.wrapBox:hover .botDot{
+ visibility: visible;
+}
+
+.title{
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.descreption{
+  width: 250px;
+  height: 40px;
+  overflow: hidden;
+  white-space:pre-line ;
+  text-overflow: ellipsis;
+
+
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .wrapBox{
+    padding-top: 5px;
+    margin-left: 40px;
+    margin-top: 5px ;
+    width: 95%;
+    display: flex;
+    align-items: center;
+    background-color: lightgray;
+    border-radius: 10px;
+  }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  .wrapBox{
+    padding-top: 5px;
+    margin-left: 40px;
+    margin-top: 5px ;
+    width: 95%;
+    display: flex;
+    align-items: center;
+    background-color: lightgray;
+    border-radius: 10px;
+  }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  .wrapBox{
+    padding-top: 5px;
+    margin-left: 40px;
+    margin-top: 5px ;
+    width: 95%;
+    display: flex;
+    align-items: center;
+    background-color: lightgray;
+    border-radius: 10px;
+  }
+} 
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  .wrapBox{
+    padding-top: 5px;
+    margin-left: 40px;
+    margin-top: 5px ;
+    width: 42%;
+    display: flex;
+    align-items: center;
+    background-color: lightgray;
+    border-radius: 10px;
+  }
+} 
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  .wrapBox{
+    padding-top: 5px;
+    margin-left: 40px;
+    margin-top: 5px ;
+    width: 45%;
+    display: flex;
+    align-items: center;
+    background-color: lightgray;
+    border-radius: 10px;
+  }
+   
+}

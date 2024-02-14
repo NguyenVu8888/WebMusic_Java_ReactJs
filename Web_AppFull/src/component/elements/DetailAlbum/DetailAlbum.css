@@ -1,0 +1,151 @@
+*{
+    box-sizing: border-box;
+}
+
+.lefttcustom{
+    background-color: aquamarine;
+}
+
+.rightcustom{
+    background-color: bisque;
+    
+}
+.btn{
+    border-radius: 25px;
+    background-color: bisque;
+}
+.under{
+    margin: 5px 0;
+    display: flex;
+    justify-content: center;
+}
+.underbtn{
+    width: 32px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: aquamarine;
+    margin: 3px 5px;
+    padding: 7px 0px 0 0;
+}
+
+.underbtn:hover{
+    background-color: pink;
+}
+.iconsss{
+    padding: 5px;
+
+}
+
+.titlete{
+    font-size: 20px;
+    margin-top: 10px;
+}
+.dot{
+    font-size: 10px;
+}
+
+.imgThumb {
+    margin-top: 15px;
+    width: 290px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 15px;
+}
+.insideBtn{
+    margin-right: 10px;
+}
+.contentCustom{
+    text-align: center;
+}
+
+.title{
+    font-size: 20px;
+    font-weight: bold;
+    color: black;
+
+}
+
+.roww1{
+    width: 200px;
+}
+.roww3{
+    text-align: right;
+    position: relative;
+}
+
+.roww2{
+    padding: 10px 0;
+    border-bottom: 1px;
+}
+
+.elementtable{
+   border-top: 1px solid rgb(219, 216, 216);
+}
+
+.elementtable:hover{
+    border-top: 1px solid gray;
+    border-right: 1px solid gray;
+}
+
+.customtable{
+    width: 95%;
+    border-radius: 15px;
+}
+
+.hiden{
+    position: absolute;
+    visibility:hidden;
+    right: 0;
+    top: 8px;
+}
+
+.under1{
+    margin: 5px 0;
+    display: flex;
+    justify-content: center;
+}
+
+.underbtn1{
+    width: 32px;
+    height: 30px;
+    margin-top: -10px;
+    padding: 7px 8px 0 0;
+}
+.ulAlbum{
+    height: 500px !important;
+}
+
+.elementtable:hover .hiden{
+    visibility: visible;
+}
+.elementtable:hover .visiblecustom{
+    visibility: hidden;
+}
+
+.section{
+    height: fit-content;
+    margin: 20px 10px;
+}
+
+.head{
+    
+    font-weight: bold;
+    font-size: 30px;
+   
+}
+
+.content{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    overflow: hidden;
+    height: fit-content;
+}
+
+.radio{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    overflow: hidden;
+    height: 225px;
+}

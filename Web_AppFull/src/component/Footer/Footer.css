@@ -1,0 +1,253 @@
+.wrapBox{
+    background-color: #a2dceb;
+    border-radius: 8px;
+     margin-left: 40px;
+     width: 400px;
+     height: 60px;
+   }
+
+.contentBody{
+    display: flex;
+    margin: 10px 15px;
+    height: 100px;
+}
+
+
+
+.contentBody:hover .icon{
+    visibility: visible;
+   }
+   
+
+.contentBody:hover  .end .time{
+    visibility: hidden;
+}
+
+.contentBody:hover .end .more{
+    visibility: visible;
+}
+
+
+
+.wrap{
+    width: 670px;
+    height:55px;
+    border-radius: 15px;
+    overflow: hidden;
+    margin: 5px 10px;
+    display: flex;
+}
+
+
+.sideContent{
+    margin-left: 15px;  
+    width: 300px;
+  }
+
+  .title{
+    font-size: 20px;
+    font-weight: bold;
+  }
+
+  .lnk{
+    color: #5e5d5d;
+  }
+
+.modelx{
+    height: 600px;
+    width: 800px;
+    border-color: chartreuse;
+    overflow:scroll;
+}
+
+.fake{
+    height: 90px;
+}
+
+.activee{
+    color: aqua;
+}
+
+.detai-song>img{
+    width:50px;
+    height:50px;
+    border-radius: 5px;
+}
+.detai-song{
+    display:flex;
+}
+.footer-detai-song{
+    margin-top:10px !important;
+    align-items: center;
+    display:flex;
+}
+.footer-detai-song>img{
+    width: 70px;
+    height: 70px;
+    border-radius:50%;
+}
+
+.footer-detai-song>.detai-name-song{
+    margin-right: 20px;
+}
+
+
+.thumb{
+    animation: spinAround 3s linear infinite;
+}
+
+@keyframes spinAround {
+    0%   {transform: rotate(0deg);}
+  100%  {transform: rotate(360deg);}
+
+
+  }
+
+.detai-name-song>marquee{
+    width: 120px;
+}
+
+.detai-name-song{
+    margin-left: 10px;
+    height:50px;
+}
+.time-song , .detai-name-song>p{
+    color:var(--g-text-color);
+    font-size:14px;
+}
+
+.nav-song{
+    display:flex;
+}
+.nav-song>li{
+    margin:0 10px;
+}
+.nav-song>li>a{
+    color:var(--text-color);
+}
+
+.footer-btn-play-song{
+    margin-top: 8px;
+    height: 50px;
+}
+.footer-btn-play-song>ul{
+    margin-left: 90px;
+    display:flex;
+    align-items:center;
+    width: 400px;
+    height:40px ;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-btn-play-song>ul>li>a{
+    margin: 0 20px;
+    color: var(--text-color);
+    font-size:15px;
+    width: 60px;
+    height: 40px;
+}
+.footer-btn-play-song>ul>li:nth-child(2)>a,
+.footer-btn-play-song>ul>li:nth-child(4)>a{
+    font-size:20px;
+}
+.footer-btn-play-song>ul>li:nth-child(3)>a{
+    font-size:40px;
+}
+
+.footer-btn-right{
+    width: 100px;
+    height:100%;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+.footer-btn-right>.fas{
+    align-items: center;
+    margin:0 10px;
+    cursor: pointer;
+    color:var(--text-color);
+}
+
+.musicPlayer{
+    width: 550px;
+    height: 30px;
+}
+
+
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+
+    .footer-play-song{
+        width: 100%;
+        position:sticky;
+        background-color:var(--active-color);
+        bottom:0;
+        left:0;
+        right:0;
+        height:90px;
+        z-index: 1000;
+    }
+    
+  }
+  
+  /* Small devices (portrait tablets and large phones, 600px and up) */
+  @media only screen and (min-width: 600px) {
+
+    .footer-play-song{
+        width: 100%;
+        position:sticky;
+        background-color:var(--active-color);
+        bottom:0;
+        left:0;
+        right:0;
+        height:90px;
+        z-index: 1000;
+    }
+  }
+  
+  /* Medium devices (landscape tablets, 768px and up) */
+  @media only screen and (min-width: 768px) {
+
+    .footer-play-song{
+        width: 100%;
+        position:sticky;
+        background-color:var(--active-color);
+        bottom:0;
+        left:0;
+        right:0;
+        height:90px;
+        z-index: 1000;
+    }
+  } 
+  
+  /* Large devices (laptops/desktops, 992px and up) */
+  @media only screen and (min-width: 992px) {
+    .footer-play-song{
+        width: 100%;
+        position:fixed;
+        background-color:var(--active-color);
+        bottom:0;
+        left:0;
+        right:0;
+        height:90px;
+        z-index: 1000;
+    }
+    
+  } 
+  
+  /* Extra large devices (large laptops and desktops, 1200px and up) */
+  @media only screen and (min-width: 1200px) {
+
+    .footer-play-song{
+        width: 100%;
+        position:fixed;
+        background-color:var(--active-color);
+        bottom:0;
+        left:0;
+        right:0;
+        height:90px;
+        z-index: 1000;
+    }
+  }

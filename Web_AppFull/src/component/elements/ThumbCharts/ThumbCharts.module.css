@@ -1,0 +1,97 @@
+.wrapBox{
+    padding-top: 5px;
+    margin-left: 40px;
+    margin-top: 10px ;
+    width: 300px;
+  }
+   
+   .boxContent {
+    display: flex;
+    width: 50px;
+    height: 50px;
+  }
+  
+   .boxContent .box {
+    height: 50px;
+    flex: 1 1 30rem;
+    border-radius: .5rem;
+    position: relative;
+    overflow: hidden;
+  }
+  
+   .boxContent .box .imgThumb{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  
+   .boxContent .box .content {
+    display: flex;
+    position: absolute;
+    top: -200%;
+    left: 0;
+    background-color: rgba(255, 255, 255, .7);
+    height: 50px;
+    width: 50px;
+    padding: 2rem ;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .disThumb{
+    display: inline-block;
+  }
+  .disThumb .sideContent{
+    margin-left: 10px;
+    line-height: 18px;
+  }
+  
+  .disThumb .sideMore{
+   display: flex;
+   position: relative;
+   margin-left: 80px;
+   height: 30px;
+   width: 30px;
+   background-color: lightgrey;
+   align-items: center;
+   justify-items: center;
+   border-radius: 45%;
+   top: -25px;
+   visibility: hidden;
+  }
+  
+  .wrapBox:hover .disThumb .boxContent .box .content {
+    top:-5px;
+    left: -6px;
+    transition: .05s linear;
+  }
+  
+  .wrapBox:hover .disThumb .boxContent .box.imgThumb {
+    width: 110%;
+    height: 110%;
+    transition: .5s linear;
+  }
+  
+
+  
+  .ln{
+    padding: 0 20px 0 20px;
+  }
+
+  .bot{
+    display: flex;
+    justify-content: center;
+}
+
+.contentBody:hover .icon{
+    visibility: visible;
+   }
+   
+
+.btn{
+    background-color: aqua;
+    padding: 8px 12px ;
+    border: 2px solid black;
+    border-radius: 20px;
+}

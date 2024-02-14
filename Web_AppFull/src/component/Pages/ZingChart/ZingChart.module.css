@@ -1,0 +1,106 @@
+.chart{
+    height: 400px;
+    width: 100%;
+    margin: 10px;
+    background-color: aliceblue;
+    overflow: hidden;
+}
+
+.image{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    object-fit: fill;
+}
+
+
+.list{
+    height: 700px;
+    overflow: hidden;
+}
+
+.bot{
+    margin-top: 50px ;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+
+.btn{
+    background-color: aqua;
+    padding: 8px 12px ;
+    border: 2px solid black;
+    border-radius: 20px;
+}
+
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .pagebody{
+        width:300px;
+        margin-left: 110px;
+    }
+    .charts{
+        display: flex; 
+        flex-wrap: wrap;
+        overflow: hidden;
+        height:500px;
+    }
+  }
+  
+  /* Small devices (portrait tablets and large phones, 600px and up) */
+  @media only screen and (min-width: 600px) {
+    .pagebody{
+        width:600px;
+        margin-left: 70px;
+    }
+    .charts{
+        display: flex; 
+        flex-wrap: wrap;
+        overflow: hidden;
+        height:1000px;
+    }
+  }
+  
+  /* Medium devices (landscape tablets, 768px and up) */
+  @media only screen and (min-width: 768px) {
+    .pagebody{
+        width:780px;
+        margin-left: 60px;
+    }
+    .charts{
+        display: flex; 
+        flex-wrap: wrap;
+        overflow: hidden;
+        height:500px;
+    }
+  } 
+  
+  /* Large devices (laptops/desktops, 992px and up) */
+  @media only screen and (min-width: 992px) {
+    .pagebody{
+        width:1000px;
+        margin-left: 60px;
+    }
+    .charts{
+        display: flex; 
+        flex-wrap: wrap;
+        overflow: hidden;
+        height:500px;
+    }
+  } 
+  
+  /* Extra large devices (large laptops and desktops, 1200px and up) */
+  @media only screen and (min-width: 1200px) {
+    .pagebody{
+        width:1200px;
+        margin-left: 60px;
+    }
+    .charts{
+        display: flex; 
+        flex-wrap: wrap;
+        overflow: hidden;
+        height:500px;
+    }
+  }

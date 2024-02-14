@@ -1,0 +1,235 @@
+
+
+.logo-go-home{
+    width: 240px;
+    display: flex;
+    justify-content: center;
+}
+
+.placeLogo {
+    /* width: 300px; */
+    
+}
+.logo{
+    width:100px;
+    border-radius: 50%; 
+}
+
+.left-on-menu{
+    margin-top: 20px;
+}
+.left-on-item{
+    margin: 0 0;
+    cursor: pointer;
+}
+.active{
+    background-color:var(--active-color);
+    border-left: 3px solid var(--main-color);
+}
+.active a{
+    color: var(--main-color);
+}
+.left-on-item:hover .on-item-click{
+    color: var(--main-color);
+    list-style: none;
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+.on-item-click{
+    line-height: 2.5;
+    color:var(--text-color);
+    font-size:15px;
+    font-weight: 700;
+    padding-left: 30px;
+}
+
+.on-item-click i{
+    padding-right: 10px;
+}
+
+/* --------------- */
+.left-under-menu{
+    height:calc(100vh - 255px - 50px - 90px - 65px);
+    border-top: 1px solid var(--active-color);
+    overflow-y:scroll;
+    overflow-x: hidden;
+}
+.left-under-menu::-webkit-scrollbar {
+    width: 4px;
+  }
+  
+  /* Track */
+  .left-under-menu::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey; 
+    border-radius: 10px;
+  }
+   
+  /* Handle */
+  .left-under-menu::-webkit-scrollbar-thumb {
+    background: rgb(117, 110, 110); 
+    border-radius: 10px;
+  }
+  
+  /* Handle on hover */
+  .left-under-menu::-webkit-scrollbar-thumb:hover {
+    background: #0a0a0a; 
+    cursor: pointer;
+}
+.left-under-menu::-webkit-scrollbar-corner{
+    display:none;
+}
+
+.tag{
+    height:20px;
+}
+.tag a{
+    font-size: 13px;
+}
+
+.btn-vip{
+    background-color:yellow;
+    padding:5px 25px;
+    border:1px solid white;
+    border-radius:20px;
+    list-style-type: none;
+    color: var(--text-color);
+    font-size:14px;
+    font-weight:700;
+}
+.btn-vip:hover{
+    text-decoration:none;
+    color:#000;
+}
+
+.ad{
+    background-image:  linear-gradient(to right, #6C50E4, #BC6AD9);
+    width:80%;
+    margin:auto;
+    height:100px !important;
+    padding:5px;
+    text-align:center;
+    border-radius:10px;
+}
+.ad> p{
+    color: var(--w-text-color);
+    font-size:13px;
+    font-weight: 500;
+    margin-bottom: 15px;
+    line-height: 20px;
+}
+
+.create-playlist{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background-color:var(--bg-menu-color);
+    border-top: 1px solid var(--active-color);
+    height:50px;
+    line-height: 3;
+}
+.add-playlist{
+    font-size:16px;
+    font-weight: bold;
+    color:var(--text-color);
+    text-align: center;
+    margin:0 10px;
+
+}
+.add-playlist:hover{
+    list-style: none;
+    text-decoration: none;
+    color:var(--main-color);
+}
+
+.left-on-content{
+    display:flex;
+    justify-content:space-between;
+    margin: 0 15px;
+}
+.left-on-content h4{
+    font-weight: 700;
+    font-size:16px;
+    line-height:3;
+}
+
+.footer-btn-right>.fas{
+    align-items: center;
+    margin:0 10px;
+    cursor: pointer;
+    color:var(--text-color);
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .left-menu{
+        width: 175px;
+        height: 700px;
+        padding:15px 0px 0px !important;
+        background-color:var(--bg-menu-color);
+        position:fixed !important;
+        top:0;
+        left:0;
+    }
+    
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    .left-menu{
+        width: 175px;
+        height: 700px;
+        padding:15px 0px 0px !important;
+        background-color:var(--bg-menu-color);
+        position:fixed !important;
+        top:0;
+        left:0;
+        
+    }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    .left-menu{
+        width: 175px;
+        height: 700px;
+        padding:15px 0px 0px !important;
+        background-color:var(--bg-menu-color);
+        position:fixed !important;
+        top:0;
+        left:0;
+        
+    }
+  
+} 
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+
+    .left-menu{
+        width: 175px;
+        height: 635px;
+        padding:15px 0px 0px !important;
+        background-color:var(--bg-menu-color);
+        position:fixed !important;
+        top:0;
+        left:0;
+        z-index: 99;
+    }
+} 
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+
+
+    .left-menu{
+        width: 255px;
+        height: calc(100vh - 90px);
+        padding:15px 0px 0px !important;
+        background-color:var(--bg-menu-color);
+        position:fixed !important;
+        top:0;
+        left:0;
+        z-index: 99;
+    }
+    
+}

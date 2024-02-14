@@ -1,0 +1,29 @@
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width:auto;
+    height: 500px;
+    text-align: center;
+    flex-direction: column;
+}
+
+.title{
+    font-size: 100px;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: greenyellow;
+    text-align: center;
+}
+
+.shortcontent{
+    font-size: 50px;
+    color: grey;
+    text-align: center;
+}
+
+.content{
+    font-size: 40px;
+    color: grey;
+    text-align: center;
+}

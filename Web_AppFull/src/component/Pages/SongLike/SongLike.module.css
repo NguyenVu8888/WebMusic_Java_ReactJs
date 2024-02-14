@@ -1,0 +1,58 @@
+.list{
+    background-color: rgb(241 230 230);
+    max-height: 6600px;
+    height: max-content;
+    overflow: hidden;
+ }
+ 
+ 
+ .ulAlbum{
+    height: 1000px !important;
+ }
+ 
+ /* Extra small devices (phones, 600px and down) */
+ @media only screen and (max-width: 600px) {
+ 
+    .pagebody{
+        width:300px;
+        margin-left: 110px;
+    }
+ }
+ 
+ /* Small devices (portrait tablets and large phones, 600px and up) */
+ @media only screen and (min-width: 600px) {
+ 
+ 
+    .pagebody{
+        width:600px;
+        margin-left: 70px;
+    }
+ }
+ 
+ /* Medium devices (landscape tablets, 768px and up) */
+ @media only screen and (min-width: 768px) {
+    .pagebody{
+        width:780px;
+        margin-left: 60px;
+    }
+  
+ } 
+ 
+ /* Large devices (laptops/desktops, 992px and up) */
+ @media only screen and (min-width: 992px) {
+ 
+  
+    .pagebody{
+        width:1000px;
+        margin-left: 60px;
+    }
+ } 
+ 
+ /* Extra large devices (large laptops and desktops, 1200px and up) */
+ @media only screen and (min-width: 1200px) {
+ 
+    .pagebody{
+        width:1200px;
+        margin-left: 60px;
+    }
+ }

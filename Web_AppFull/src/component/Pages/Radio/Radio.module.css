@@ -1,0 +1,311 @@
+.section{
+    height: fit-content;
+    margin: 20px 10px;
+}
+
+.head{
+    
+    font-weight: bold;
+    font-size: 30px;
+   
+}
+
+
+.timeChanel{
+    width: inherit;
+    height: 200px;
+    background-color: aqua;
+}
+
+.content{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    overflow: hidden;
+    height: fit-content;
+}
+
+
+.btnRegion{
+    display: flex;
+    margin: 10px 5px ;
+    justify-content: space-between;
+}
+
+.last-btn{
+    position: absolute;
+    right:80px;
+    margin: 0 5px;
+}
+
+
+.contentTheLoai{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    overflow: hidden;
+    height: 120px;
+}
+
+    
+.contentCT{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    overflow: hidden;
+    height: 155px;
+}
+
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+
+    .pagebody{
+        width:300px;
+        margin-left: 110px;
+    }
+
+    .radio{
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+        overflow: hidden;
+        height: 320px;
+    }
+
+    .contentKhamPha{
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+        overflow: hidden;
+        height: 550px;
+    }
+    
+    .contentBXH{
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+        overflow: hidden;
+        height: 450px;
+    }
+    
+
+    
+    .contentZNews{
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+        overflow: hidden;
+        height: 540px;
+    }
+    
+    .ep{
+        height: 280px;
+        display: flex;
+        flex-wrap: wrap;
+        overflow: hidden;
+    }
+    
+  }
+  
+  /* Small devices (portrait tablets and large phones, 600px and up) */
+  @media only screen and (min-width: 600px) {
+
+    .pagebody{
+        width:600px;
+        margin-left: 70px;
+    }
+
+    .radio{
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+        overflow: hidden;
+        height: 315px;
+    }
+
+    .contentKhamPha{
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+        overflow: hidden;
+        height: 550px;
+    }
+    
+    .contentBXH{
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+        overflow: hidden;
+        height: 450px;
+    }
+    
+
+    
+    .contentZNews{
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+        overflow: hidden;
+        height: 540px;
+    }
+    
+    .ep{
+        height: 280px;
+        display: flex;
+        flex-wrap: wrap;
+        overflow: hidden;
+    }
+    
+  }
+  
+  /* Medium devices (landscape tablets, 768px and up) */
+  @media only screen and (min-width: 768px) {
+    .pagebody{
+        width:780px;
+        margin-left: 60px;
+    }
+
+    .radio{
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+        overflow: hidden;
+        height: 280px;
+    }
+
+    .contentKhamPha{
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+        overflow: hidden;
+        height: 550px;
+    }
+    
+    .contentBXH{
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+        overflow: hidden;
+        height: 450px;
+    }
+    
+
+    
+    .contentZNews{
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+        overflow: hidden;
+        height: 540px;
+    }
+    
+    .ep{
+        height: 280px;
+        display: flex;
+        flex-wrap: wrap;
+        overflow: hidden;
+    }
+    
+  } 
+  
+  /* Large devices (laptops/desktops, 992px and up) */
+  @media only screen and (min-width: 992px) {
+    .pagebody{
+        width:1000px;
+        margin-left: 60px;
+    }
+
+    .radio{
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+        overflow: hidden;
+        height: 250px;
+    }
+
+    .contentKhamPha{
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+        overflow: hidden;
+        height: 550px;
+    }
+    
+    .contentBXH{
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+        overflow: hidden;
+        height: 345px;
+    }
+    
+
+    
+    .contentZNews{
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+        overflow: hidden;
+        height: 540px;
+    }
+    
+    .ep{
+        height: 300px;
+        display: flex;
+        flex-wrap: wrap;
+        overflow: hidden;
+    }
+    
+  } 
+  
+  /* Extra large devices (large laptops and desktopstyle.radio}, 1200px and up) */
+  @media only screen and (min-width: 1200px) {
+    .pagebody{
+        width:1200px;
+        margin-left: 60px;
+    }
+
+    .radio{
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+        overflow: hidden;
+        height: 225px;
+    }
+
+    .contentKhamPha{  
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+        overflow: hidden;
+        height: 280px;
+    }
+    
+    
+    .contentBXH{  
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+        overflow: hidden;
+        height: 350px;
+    }
+
+    .contentZNews{  
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+        overflow: hidden;
+        height: 300px;
+    }
+    
+    .ep{
+        height: 280px;
+        display: flex;
+        flex-wrap: wrap;
+        overflow: hidden;
+    }
+    
+
+
+  }

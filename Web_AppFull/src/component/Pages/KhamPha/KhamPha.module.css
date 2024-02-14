@@ -1,0 +1,298 @@
+
+
+
+
+.head{
+    margin: 10px 5px;
+}
+.region{
+    height: fit-content;
+    margin-bottom: 30px;
+    margin-top: 10px;
+}
+
+
+
+
+
+.btnRegion{
+    display: flex;
+    margin: 10px 5px ;
+}
+
+.radio{
+    height: 200px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    overflow: hidden;
+    margin-left: 50px;
+    margin-bottom: 20px;
+}
+
+.bxh{
+    height: 150px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    overflow: hidden;
+}
+
+
+
+.btn{
+    background-color: aqua;
+    padding: 3px 10px ;
+    border: 2px solid whitesmoke;
+    border-radius: 20px;
+    margin:3px 5px;
+}
+
+.lastBtn{
+    background-color: aqua;
+    padding: 3px 10px ;
+    border: 2px solid whitesmoke;
+    border-radius: 20px;
+    position: absolute;
+    right:80px;
+    margin: 0 5px;
+}
+
+
+.title{
+    font-size: 30px;
+    font-weight: bold;
+    font-style: italic;
+    /* text-shadow: 3px 1px red; */
+    color: black;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .pagebody{
+        width:300px;
+        margin-left: 110px;
+    }
+    .newsPulished{
+        height: 330px;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        overflow: hidden;
+    }
+
+    .chill{
+        display: flex;
+        flex-wrap: wrap;
+        overflow: hidden;
+        height:540px;
+    }
+
+    .chart{
+        height: 360px;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        overflow: hidden;
+    }
+    .topHundred{
+        display: flex;
+        flex-wrap: wrap;
+        overflow: hidden;
+        height: 545px;
+    }
+    .radio{
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+        overflow: hidden;
+        height: 320px;
+    }
+
+    
+  }
+  
+  /* Small devices (portrait tablets and large phones, 600px and up) */
+  @media only screen and (min-width: 600px) {
+    .pagebody{
+        width:600px;
+        margin-left: 70px;
+    }
+    .newsPulished{
+        height: 290px;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        overflow: hidden;
+    }
+
+    .chill{
+        display: flex;
+        flex-wrap: wrap;
+        overflow: hidden;
+        height: 540px;
+    }
+
+    .chart{
+        height: 245px;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        overflow: hidden;
+    }
+
+    .topHundred{
+        display: flex;
+        flex-wrap: wrap;
+        overflow: hidden;
+        height: 545px;
+    }
+
+    .radio{
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+        overflow: hidden;
+        height: 315px;
+    }
+    
+  }
+  
+  /* Medium devices (landscape tablets, 768px and up) */
+  @media only screen and (min-width: 768px) {
+    .pagebody{
+        width:780px;
+        margin-left: 60px;
+    }
+
+    .newsPulished{
+        height: 270px;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        overflow: hidden;
+    }
+
+    .chill{
+        display: flex;
+        flex-wrap: wrap;
+        overflow: hidden;
+        height: 260px;
+    }
+
+    .chart{
+        height: 245px;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        overflow: hidden;
+    }
+    .topHundred{
+        display: flex;
+        flex-wrap: wrap;
+        overflow: hidden;
+        height: 270px;
+    }
+
+    
+    .radio{
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+        overflow: hidden;
+        height: 280px;
+    }
+    
+  } 
+  
+  /* Large devices (laptops/desktops, 992px and up) */
+  @media only screen and (min-width: 992px) {
+    .pagebody{
+        width:1000px;
+        margin-left: 60px;
+
+    }
+    .newsPulished{
+        height: 270px;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        overflow: hidden;
+    }
+
+    .chill{
+        display: flex;
+        flex-wrap: wrap;
+        overflow: hidden;
+        height: 260px;
+    }
+    .chart{
+        height: 245px;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        overflow: hidden;
+    }
+
+    .topHundred{
+        display: flex;
+        flex-wrap: wrap;
+        overflow: hidden;
+        height: 270px;
+    }
+
+    .radio{
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+        overflow: hidden;
+        height: 250px;
+    }
+    
+  } 
+  
+  /* Extra large devices (large laptops and desktops, 1200px and up) */
+  @media only screen and (min-width: 1200px) {
+     .pagebody{
+        width:1200px;
+        margin-left: 60px;
+    }
+    .newsPulished{
+        height: 300px;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        overflow: hidden;
+    }
+
+    .chill{
+        display: flex;
+        flex-wrap: wrap;
+        overflow: hidden;
+        height: 260px;
+    }
+    
+
+    .chart{
+        height: 130px;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        overflow: hidden;
+    }
+
+    .topHundred{
+        display: flex;
+        flex-wrap: wrap;
+        overflow: hidden;
+        height: 270px;
+    }
+
+    .radio{ 
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+        overflow: hidden;
+        height: 225px;
+    }
+  }

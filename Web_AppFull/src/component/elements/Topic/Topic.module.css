@@ -1,0 +1,74 @@
+.section{
+    height: fit-content;
+    margin: 20px 10px;
+}
+
+.btnRegion{
+    display: flex;
+    margin: 10px 5px ;
+    justify-content: space-between;
+}
+
+.last-btn{
+    position: absolute;
+    right:80px;
+    margin: 0 5px;
+}
+
+
+
+.head{
+    font-weight: bold;
+    font-size: 30px;
+}
+
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .wrap{
+        height: 545px;
+        display: flex;
+        flex-wrap: wrap;
+        overflow: hidden;
+    }
+  }
+  
+  /* Small devices (portrait tablets and large phones, 600px and up) */
+  @media only screen and (min-width: 600px) {
+    .wrap{
+        height: 545px;
+        display: flex;
+        flex-wrap: wrap;
+        overflow: hidden;
+    }
+  }
+  
+  /* Medium devices (landscape tablets, 768px and up) */
+  @media only screen and (min-width: 768px) {
+    .wrap{
+        height: 545px;
+        display: flex;
+        flex-wrap: wrap;
+        overflow: hidden;
+    }
+  } 
+  
+  /* Large devices (laptops/desktops, 992px and up) */
+  @media only screen and (min-width: 992px) {
+    .wrap{
+        height: 545px;
+        display: flex;
+        flex-wrap: wrap;
+        overflow: hidden;
+    }
+  } 
+  
+  /* Extra large devices (large laptops and desktops, 1200px and up) */
+  @media only screen and (min-width: 1200px) {
+    .wrap{
+        height: 280px;
+        display: flex;
+        flex-wrap: wrap;
+        overflow: hidden;
+    }
+  }

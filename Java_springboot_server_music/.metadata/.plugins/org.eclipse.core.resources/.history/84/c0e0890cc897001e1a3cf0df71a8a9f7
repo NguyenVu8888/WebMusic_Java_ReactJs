@@ -1,0 +1,18 @@
+package com.nguyenvu.service;
+
+import java.util.List;
+
+import org.springframework.data.domain.Pageable;
+
+import com.nguyenvu.dto.xAlbumDTO;
+
+public interface IAlbumService {
+
+	List<xAlbumDTO> findAll();
+	List<xAlbumDTO> findAll(Pageable pageable);
+	xAlbumDTO save();
+	xAlbumDTO update();
+	xAlbumDTO delete(long[] ids);
+	int totalItem();
+	List<xAlbumDTO> findByName(String name);
+}

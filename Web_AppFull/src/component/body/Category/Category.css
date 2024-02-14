@@ -1,0 +1,97 @@
+
+
+
+.category-my-song{
+    margin-top: 30px !important;
+}
+
+.NameSong{
+    margin-bottom: 20px;
+}
+
+.category-slide-album{
+    align-items: center;
+}
+.category-slide-album_img{
+    width:200px;
+    margin-top:15px;
+    border-radius: 5px;
+}
+
+.category-all-mysong{
+    padding-right: 0 !important;
+}
+.category-all-mysong>ul{
+    margin: 0;
+    height:250px;
+    overflow-y: scroll;
+}
+.category-all-mysong>ul::-webkit-scrollbar{
+    display:none;
+}
+.category-all-mysong>ul:hover::-webkit-scroll{
+    display:block;
+}
+.category-all-mysong>ul>li{
+    margin-top: 10px;
+    padding-bottom:  2px;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 5px;
+}
+
+.active{
+    background-color:var(--active-color);
+    border-left: 3px solid var(--main-color);
+}
+.active a{
+    color: var(--main-color);
+}
+
+.detai-song>img{
+    width:50px;
+    height:50px;
+    border-radius: 5px;
+}
+.detai-song{
+    display:flex;
+}
+
+.detai-name-song{
+    margin-left: 10px;
+    padding-top: 5px;
+    height:50px;
+}
+.time-song , .detai-name-song>p{
+    color:var(--g-text-color);
+    font-size:14px;
+}
+
+.detai-name-song>marquee{
+    width: 120px;
+}
+.footer-detai-song>.detai-name-song{
+    margin-right: 20px;
+}
+
+.nav-song{
+    display:flex;
+}
+.nav-song>li{
+    margin:0 10px;
+}
+.nav-song>li>a{
+    color:var(--text-color);
+}
+
+.footer-btn-right>.fas{
+    align-items: center;
+    margin:0 10px;
+    cursor: pointer;
+    color:var(--text-color);
+}
+
+.song {
+    cursor: pointer;
+}

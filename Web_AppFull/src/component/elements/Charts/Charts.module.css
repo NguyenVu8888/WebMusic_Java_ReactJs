@@ -1,0 +1,164 @@
+
+
+.head{
+    width: max-content;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    margin-top: 15px;
+    margin-left: 20px;
+}
+
+.textHead{
+    font-weight: bold;
+    font-size: 30px;
+    margin: 0 40px;
+    color: rgb(89, 90, 90);
+    width: 250px;
+    height: 50px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+.body{
+    height: 350px;
+    margin: 5px 0 -5px 0;
+    overflow: hidden;
+}
+.contentBody{
+    display: flex;
+    margin: 10px 15px;
+    height: 50px;
+}
+
+.bot{
+    display: flex;
+    justify-content: center;
+ 
+}
+
+.contentBody:hover .icon{
+    visibility: visible;
+   }
+   
+
+.btn{
+    background-color: aqua;
+    padding: 8px 12px ;
+    border: 2px solid rgb(75, 73, 73);
+    border-radius: 20px;
+}
+.num{
+    font-style: oblique;
+    font-weight: bold;
+    font-size: 40px;
+    margin:  25px 0;
+}
+.space{
+    font-style: oblique;
+    font-size: 40px;
+    margin:  25px 0;
+
+}
+.icon{
+    margin: 25px 50px ;
+    font-size: 20px;
+    visibility: hidden;
+}
+
+.end{
+    position: relative;
+    display: flex;
+    right: 30px;
+    margin: 10px 0;
+}
+
+.more{
+    position: absolute;
+    visibility: hidden;
+    margin:  25px 8px;
+}
+
+.time{
+  color: rgb(88, 85, 85);
+  margin:  25px 0;
+  width: 30px;
+  height: 20px;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+
+}
+.mid{
+    width: 250px;
+}
+
+.contentBody:hover  .end .time{
+    visibility: hidden;
+}
+
+.contentBody:hover .end .more{
+    visibility: visible;
+}
+
+
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .wrapBox{
+        width: 95%;
+        height: 450px;
+        border: 2px solid rgb(157, 157, 218);
+        border-radius: 15px;
+        overflow: hidden;
+        margin: 20px 10px;
+    }
+  }
+  
+  /* Small devices (portrait tablets and large phones, 600px and up) */
+  @media only screen and (min-width: 600px) {
+    .wrapBox{
+        width: 95%;
+        height: 450px;
+        border: 2px solid rgb(157, 157, 218);
+        border-radius: 15px;
+        overflow: hidden;
+        margin: 20px 10px;
+    }
+  }
+  
+  /* Medium devices (landscape tablets, 768px and up) */
+  @media only screen and (min-width: 768px) {
+    .wrapBox{
+         width:47%;
+        height: 450px;
+        border: 2px solid rgb(157, 157, 218);
+        border-radius: 15px;
+        overflow: hidden;
+        margin: 20px 10px;
+    }
+  } 
+  
+  /* Large devices (laptops/desktops, 992px and up) */
+  @media only screen and (min-width: 992px) {
+    .wrapBox{
+        width:47%;
+        height: 450px;
+        border: 2px solid rgb(157, 157, 218);
+        border-radius: 15px;
+        overflow: hidden;
+        margin: 20px 10px;
+    }
+  } 
+  
+  /* Extra large devices (large laptops and desktops, 1200px and up) */
+  @media only screen and (min-width: 1200px) {
+    .wrapBox{
+        width:47%;
+        height: 450px;
+        border: 2px solid rgb(157, 157, 218);
+        border-radius: 15px;
+        overflow: hidden;
+        margin: 20px 10px;
+    }
+  }

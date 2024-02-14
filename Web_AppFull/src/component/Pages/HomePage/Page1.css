@@ -1,0 +1,220 @@
+
+
+
+.main-menu{
+    z-index: 10;
+}
+
+.head1{
+    width:100%;
+    height:50px ;
+    z-index: 10;
+    background-color:var(--w-text-color);
+}
+.head2{
+    height:50px;
+}
+
+.list-navbar{
+    display:flex;
+}
+
+.btn-head{
+    display: flex;
+    margin:7px 15px 0 15px;
+    justify-content: space-between;
+}
+
+.nav-item{
+    border:none;
+    background-color:transparent;
+    margin:0 5px;
+}
+.sub-list-head{
+    display:flex;
+    justify-content: space-between;
+}
+
+.sub-list-head li{
+    margin-left:15px;
+}
+.sub-list-head> li>a> img{
+    width:40px;
+    border-radius:50%;
+    border:1px solid var(--text-color);
+}
+
+.all-menu-main{
+    width: 100%;
+}
+
+.my-app-account{
+    margin-top:100px !important;
+    
+}
+
+.my-mind{
+    text-align: center;
+}
+
+.my-avata{
+    height: 120px;
+    width:120px;
+    border-radius: 50%;
+}
+
+.name-my-app{
+    color: var(--text-color);
+    font-size:25px;
+    font-weight:700;
+}
+
+.core{
+    width:100%;
+}
+.core-click{
+    margin: 10px 5px;
+    font-size: 1rem;
+    font-weight:500;
+    background-color:var(--active-color);
+    padding:5px 10px;
+    border-radius:20px;
+    color:var(--w-text-color);
+}
+.core-click:hover{
+    color:var(--w-text-color);
+    background-color:var(--active-m-color);
+    text-decoration: none;
+}
+
+.su-head{
+    font-size: 15px;
+    width:30px;
+    background-color: var(--active-color);
+    color: var(--main-color);
+    padding:5px 8px;
+    border-radius: 50%;
+}
+
+.chose{
+    padding:8px 10px;
+}
+
+.category-navbar{
+    margin-top:40px;
+}
+
+.nav-category{
+    max-width:780px;
+    margin:auto;
+    display:flex;
+    justify-content: space-between;
+    background-color: var(--active-color);
+    padding:3px;
+    border-radius:20px;
+}
+.nav-category>li{
+    text-align: center;
+    width:calc(100%/7);
+    padding:5px 5px;
+    cursor: pointer;
+}
+.nav-category_link{
+    width:100%;
+    height: 100%;
+    color: var(--w-text-color);
+    font-size: 16px;
+    text-decoration: none;
+    padding: 10px 2px;
+}
+.nav-category_link:hover{
+    text-decoration:none;
+    color:var(--w-text-color);
+}
+.nav-category>li:hover{
+    background-color: var(--active-m-color);
+    border-radius: 20px;
+}
+
+.nav-play-music{
+    display:flex;
+    justify-content: space-between;
+    margin-top:40px;
+}
+
+.all-song>button{
+    border:none;
+    font-size:20px;
+    font-weight: 700;
+    background-color: transparent;
+}
+
+.btn-pls>button{
+    border:none;
+    background-color:var(--active-color);
+    color:var(--w-text-color);
+    border-radius: 20px;
+    width:150px;
+}
+.btn-pls>button:hover{
+    background-color: var(--active-m-color);
+}
+
+.footer-btn-right>.fas{
+    align-items: center;
+    margin:0 10px;
+    cursor: pointer;
+    color:var(--text-color);
+}
+
+
+.main-menu{
+    z-index: 10;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+
+    .pagebody{
+        width:300px;
+        margin-left: 110px;
+    }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+
+
+    .pagebody{
+        width:600px;
+        margin-left: 50px;
+    }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    .pagebody{
+        width:780px;
+        margin-left: 30px;
+    }
+  
+} 
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+
+  
+    .pagebody{
+        width:1000px;
+        margin-left: 30px;
+    }
+} 
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+
+    .pagebody{
+        width:1200px;
+        margin-left: 30px;
+    }
+}

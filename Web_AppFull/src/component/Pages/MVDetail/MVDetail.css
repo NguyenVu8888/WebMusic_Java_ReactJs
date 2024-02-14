@@ -1,0 +1,81 @@
+
+.container_customer{
+    max-width: 1400px;
+    margin: auto;
+}
+
+.Show_video_detai{
+    width:100%;
+}
+.iframe_detai_Mv{
+    border-radius: 5px;
+    width: 100%;
+}
+.name_Video_detai{
+    font-size:18px;
+    font-weight: bold;
+}
+.infor_author{
+    display: flex;
+}
+.img_author_detai{
+    width:50px;
+    height: 50px;
+    border-radius:50%; 
+    margin-right: 10px;
+}
+.name_author{
+    font-size: 16px;
+    font-weight: 500;
+}
+.more_info_author{
+    font-size: 13px;
+}
+.mb0{
+    margin: 0 !important;
+}
+
+.title_mv_detai{
+    background-color: rgb(132, 131, 131);
+    color: white;
+    width: 100%;
+    border-radius: 15px;
+}
+.w90{
+    padding: 8px 10px;
+    margin-top: 10px !important;
+    width: 95% !important;
+    margin: auto;
+}
+
+/* ----- */
+.list_infor_mv{
+    display: flex !important;
+    height: 150px;
+}
+
+.box_image_mv{
+    height: 100%;
+    width: 200px;
+    margin-right: 20px;
+}
+.image_Mv_sub{
+    height: 130px;
+    width: 160px;
+    object-fit: cover;
+    border-radius: 3px;
+}
+
+.videosquare{
+    height: 600px;
+    width: 700px;
+}
+.name_mv_sub{
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 3px;
+}
+.more_info_subMv{
+    font-size: 11px;
+    margin-top: 3px;
+}
